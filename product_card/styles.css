@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#slide-1 img {
+    height: 500px;
+   
+    object-fit: contain;
+}
+
+#slide-2 {
+    height: 500px;
+    width: 3330px;
+}
