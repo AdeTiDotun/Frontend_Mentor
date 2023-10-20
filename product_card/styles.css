@@ -1,15 +1,43 @@
+
 body {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+    background-color: antiquewhite;
+
 }
-#slide-1 img {
+
+#perfume {
+    padding: 25%;
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+}
+
+#perfume img {
     height: 500px;
-   
-    object-fit: contain;
 }
 
 #slide-2 {
+    width: 25%;
     height: 500px;
-    width: 3330px;
+    background: #fff;
+    padding: 0 20px;
 }
+
+.header-2 {
+    font-weight: normal;
+    font-size: medium;
+    color: rgb(141, 139, 139);
+}
+
+.header-1 {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.floral {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(141, 139, 139);
+    line-height: 1.5rem;
+}
+
