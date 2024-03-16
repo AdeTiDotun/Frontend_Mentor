@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Card</title>
   </head>
+  <link rel="stylesheet" href="styles.css">
   <body>
     <!-- Body of the form -->
     <section id="main-body">
@@ -23,23 +24,21 @@
               <input type="text" id="card-number" />
             </li>
           </ul>
-          <label for="day"></label>
-          <!-- <label for="day">Day:</label> -->
-          <input type="number" class="day" name="day" min="1" max="31" required />
-
-          <!-- <label for="month">Month:</label> -->
-          <input
-            type="number"
-            class="day"
-            name ="month"
-            min="1"
-            max="12"
-            required
-          />
+          <div class="date">
+            <label for="date">EXP.DATE</label>
+            <label for="date">(MM/YY)</label>
+            <label for="date">CVC</label>
+          </div>
+          <div>
+            <input type="text" id="date" placeholder="MM">
+            <input type="text" id="date" placeholder="YY">
+            <input type="text" id="date" placeholder="e.g. 123">
+          </div>
+          <button>Confirm</button>
         </form>
       </div>
+      
     </section>
-
     <!-- Cards -->
     <section>
       <div></div>
