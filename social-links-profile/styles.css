@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(8, 8, 8);
+    margin: 50px auto;
+    font-family: "Roboto", sans-serif;
+}
+
+#card {
+    background-color: rgb(18, 17, 17);
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#image {
+    text-align: center;
+}
